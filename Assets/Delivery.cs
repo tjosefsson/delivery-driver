@@ -17,7 +17,7 @@ public class Delivery : MonoBehaviour
     }
 
     void OnCollisionEnter2D(Collision2D other) {
-        Debug.Log("It was his mistake!");
+        Debug.Log("My bad!");
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
